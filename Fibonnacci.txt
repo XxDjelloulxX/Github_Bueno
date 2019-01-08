@@ -12,9 +12,16 @@ namespace Fibonnacci
     
 	class Program
     {
+         static void Main(string[] args)
+        {
+           
+            int a,b,n,i,aux; 
+            Console.WriteLine("¿Cuantos números fibonacci quieres?");
+            n = int.Parse(Console.ReadLine()); 
+            a = 0;
+            b = 1; 
 
-
-   
+        }
   } 
 
 }
