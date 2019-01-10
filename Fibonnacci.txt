@@ -21,6 +21,16 @@ namespace Fibonnacci
             a = 0;
             b = 1; 
 
+	
+	    for (i = 0; i < n; i++)  
+            {
+                aux = a;
+                a = b; 
+                b = aux + a; 
+                Console.WriteLine(a);
+            }
+            Console.ReadKey(); 
+
         }
   } 
 
